@@ -1,4 +1,4 @@
-package com.standalone.jpa.dao;
+package com.custom.finder.method.jpa.dao;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import com.standalone.jpa.entityes.UserEntity;
+import com.custom.finder.method.jpa.entityes.UserEntity;
 
 @Repository
 public interface UserDAO extends CrudRepository<UserEntity, Long> {

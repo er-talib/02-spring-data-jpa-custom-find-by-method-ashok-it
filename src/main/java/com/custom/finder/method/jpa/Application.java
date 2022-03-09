@@ -1,4 +1,4 @@
-package com.standalone.jpa;
+package com.custom.finder.method.jpa;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,8 +7,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 
-import com.standalone.jpa.dao.UserDAO;
-import com.standalone.jpa.entityes.UserEntity;
+import com.custom.finder.method.jpa.dao.UserDAO;
+import com.custom.finder.method.jpa.entityes.UserEntity;
 
 @SpringBootApplication
 public class Application {
